@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    
+      <div class="wrapper">
+        <div class="box">
+          <div class="screen">
+            <div type="text" class="typed" id="typed" style="font-size: 25px; margin: 10px 0 0 20px;"></div><br><br><br>
+            <div class="result" id="result" style="font-size: 40px; float:right;"></div>
+          </div>
+    
+          <div class="number">
+            <input type="button" class="flex-item ac" id="ac" value="AC">
+            <input type="button" class="flex-item" id="myBtn" onclick="myFunction('9')" value="9">
+            <input type="button" class="flex-item" id="myBtn" onclick="myFunction('8')" value="8">
+            <input type="button" class="flex-item plus" id="myBtn" onclick="myFunction('+')" value="+">
+            <input type="button" class="flex-item" id="myBtn" onclick="myFunction('7')" value="7">
+            <input type="button" class="flex-item" id="myBtn" onclick="myFunction('6')" value="6">
+            <input type="button" class="flex-item" id="myBtn" onclick="myFunction('5')" value="5">
+            <input type="button" class="flex-item minus" id="myBtn" onclick="myFunction('-')" value="-">
+            <input type="button" class="flex-item" id="myBtn" onclick="myFunction('4')" value="4">
+            <input type="button" class="flex-item" id="myBtn" onclick="myFunction('3')" value="3">
+            <input type="button" class="flex-item" id="myBtn" onclick="myFunction('2')" value="2">
+            <input type="button" class="flex-item multi" id="myBtn" onclick="myFunction('*')" value="*">
+            <input type="button" class="flex-item" id="myBtn" onclick="myFunction('1')" value="1">
+            <input type="button" class="flex-item" id="myBtn" onclick="myFunction('0')" value="0">
+            <input type="button" class="flex-item" id="myBtn" onclick="myFunction('.')" value=".">
+            <input type="button" class="flex-item divide" id="myBtn" onclick="myFunction('/')" value="&divide;">
+          </div>
+          <div class="equal text-center" id="equal">=</div>
+        </div>
+      </div>
+    </div>
+    <footer><h5 class="text-center">created by Naimur</h5></footer>
+    
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

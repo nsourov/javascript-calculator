@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #16a085;
+}
+
+.box {
+  background: url(http://azmind.com/wp-content/uploads/2012/11/blurred-background-4.jpg)
+    no-repeat
+    center;
+  background-size: 400px 560px;
+  color: #ffffff;
+  margin: 7% auto;
+  width: 400px;
+  height: 560px;
+  border-radius: 10px;
+}
+
+.box:hover {
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+.screen {
+  height: 130px;
+}
+.typed {
+  height: 40px;
+  position: absolute;
+}
+.result {
+  margin-right: 30px;
+  
+}
+
+.number {
+  width: 400px;
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 15px;
+}
+
+.flex-item {
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, .2);
+  border-radius: 50%;
+  width: 61px;
+  height: auto;
+  font-size: 25px;
+  margin: 15px;
+  padding: 13px;
+  transition: background-color 0.2s ease;
+}
+.flex-item:hover {
+  background-color: #3498db;
+  cursor: pointer;
+}
+.plus:hover, .minus:hover, .multi:hover, .divide:hover {
+  background-color: #c0392b;
+  cursor: pointer;
+}
+.ac:hover {
+  background-color: #e67e22;
+}
+.equal {
+  font-size: 35px;
+  transition: background-color 0.2s ease;
+}
+.equal:hover {
+  background-color: #2ecc71;
+  cursor: pointer;
+}
